@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Connecting TikTok</title>
+<style>body{font:16px system-ui;background:#15161c;color:#eee;display:grid;place-items:center;height:100vh;margin:0}a{color:#ff6084}</style></head>
+<body><div id="m">Connecting your TikTok account to Glow Lab Studio…</div>
+<script>
+var q=location.search||"";var target="http://localhost:8000/auth/tiktok/callback"+q;
+document.getElementById("m").innerHTML='Returning to the app… <br><br>If nothing happens, <a href="'+target+'">click here</a> (the Glow Lab engine must be running on this computer).';
+location.replace(target);
+</script></body></html>
